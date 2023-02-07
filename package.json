@@ -4,7 +4,8 @@
   "description": "",
   "main": "Stack.js",
   "scripts": {
-    "stack": "node Stack.js"
+    "stack": "node Stack.js",
+    "queue": "node Queue.js"
   },
   "keywords": [],
   "author": "",
