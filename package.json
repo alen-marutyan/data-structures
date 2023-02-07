@@ -1,0 +1,12 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Stack.js",
+  "scripts": {
+    "stack": "node Stack.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
