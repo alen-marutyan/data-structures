@@ -1,71 +1,15 @@
-class Set {
-    constructor(collection = []) {
-        this.collection  = collection;
-    }
+const set = new Set([1, 2, 3]);
+set.add(4);
+set.add(4) // it will ignore as metioned that values must be unique
 
-    values() {
-        return this.collection;
-    }
+set.has(8) // false
 
-    size() {
-        return this.collection.length;
-    }
+set.delete(2) // 1, 3 4
 
-    add(item) {
-        if (!this.has(item)) {
-            this.collection.push(item);
-            return true;
-        }
-        return false;
-    }
+set.size // 3
 
-    remove(item) {
-        if (this.has(item)) {
-            const index = this.collection.indexOf(item);
-            this.collection.splice(index, 1);
-            return true;
-        }
-        return false;
-    }
-
-    has(value) {
-        return (this.collection.indexOf(value) !== -1);
-    }
-
-    pop() {
-        if (this.count === 0) {
-            return undefined;
-        }
-        this.count--;
-        const result = this.storage[this.count];
-        delete this.storage[this.count];
-        return result;
-    }
-
-    peek() {
-        return this.storage[this.count - 1];
-    }
-
-    size() {
-        return this.count;
-    }
+for(const item of set) {
+    console.log(item)
 }
 
-const data = new Set(0, []);
-
-// Input a new element.
-data.push(1);
-data.push(2);
-data.push(3);
-console.log(data);
-
-// Remove the top element, return the removed element.
-data.pop();
-console.log(data);
-
-// Return the top element.
-console.log(data.peek());
-
-// Return the number of element(s) in the stack.
-console.log(data.count);
-
+set.clear() // []

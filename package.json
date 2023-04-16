@@ -6,7 +6,8 @@
   "scripts": {
     "stack": "node Stack.js",
     "queue": "node Queue.js",
-    "set": "node Set.js"
+    "set": "node Set.js",
+    "linked-list": "node LinkedList.js"
   },
   "keywords": [],
   "author": "",
