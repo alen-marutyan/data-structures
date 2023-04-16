@@ -2,19 +2,27 @@
 
 ## 1. Stack
 
->Stack follows the principle of LIFO (last In, first out). If you stack books, the top book will be taken before the bottom one. When you browse on the internet, the back button leads you to the most recently browsed page.
+>A stack is a data structure that follows the principle of LIFO (last in, first out). It can be used to keep track of the most recently added elements and to perform operations such as push (add to top) and pop (remove from top).
 > 
 > ```npm run stack```
-> 
-> When we start the script we push 3 element to the stack and showing our elements, pop method removing the last element we pushed, then we using peek method to see last pushed element , in the end we printing our stack length.
-
+>
 
 ## 2. Queue
 
->Queue is similar to stack. The only difference is that queue uses the FIFO principle (first in, first out). In other words, when you queue for the bus, the first in the queue will always board first.
+>A queue is a data structure that follows the principle of FIFO (first in, first out). It can be used to process elements in the order they were added, and to perform operations such as enqueue (add to back) and dequeue (remove from front).
 >
 >```npm run queue```
-> 
-> Queue is a data structere. Using push method we add element to our queue  from the last and using enqueue method we delete from the first.
+>
+
+## 3. Set
+
+>A set is a data structure in which each element is unique and appears only once. It can be used to check for the presence of an element in constant time, and to eliminate duplicate elements from a collection. A Set is commonly used in computer science to perform operations such as union, intersection, and difference between two sets.
+>
+>```npm run queue```
+>
+
+
+
+
 
 

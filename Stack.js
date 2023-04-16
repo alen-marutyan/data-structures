@@ -4,8 +4,8 @@ class Stack {
         this.storage = storage;
     }
 
-    push(value) {
-        this.storage[this.count] = value;
+    push(item) {
+        this.storage[this.count] = item;
         this.count++;
     }
 

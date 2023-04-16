@@ -5,7 +5,8 @@
   "main": "Stack.js",
   "scripts": {
     "stack": "node Stack.js",
-    "queue": "node Queue.js"
+    "queue": "node Queue.js",
+    "set": "node Set.js"
   },
   "keywords": [],
   "author": "",
